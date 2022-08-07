@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2140767F-4289-46FB-8EF2-DF313310ED7B}</ProjectGuid>
+    <ProjectGuid>{358A65D7-7FF3-438E-B71E-1E86F1D53C78}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StudentManagement</RootNamespace>
-    <AssemblyName>StudentManagement</AssemblyName>
+    <RootNamespace>ConnectionPracticeDemo</RootNamespace>
+    <AssemblyName>ConnectionPracticeDemo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StudentManagementIO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
